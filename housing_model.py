@@ -2,7 +2,7 @@ import csv
 import pandas as pd
 import numpy as np
 
-housing = pd.read_csv("/kaggle/input/boston-ma-housing-dataset/data.csv")
+housing = pd.read_csv("data.csv")
 
 from pandas.plotting import scatter_matrix
 
